@@ -1,0 +1,46 @@
+html,
+body {
+    padding         : 0;
+    margin          : 0;
+    height          : 100%;
+    width           : 100%;
+    box-sizing      : border-box;
+    background-color: #182A48;
+    color           : white;
+    font-family     : 'Roboto', sans-serif;
+}
+
+#badge {
+    position: relative;
+    z-index : 999;
+}
+
+.badge-container {
+    width: 200px;
+}
+
+img[alt='badge'] {
+    width: 100%;
+}
+
+img[alt='circle1'],
+img[alt='circle2'],
+img[alt='circle3'] {
+    position: absolute;
+    z-index : 0;
+}
+
+img[alt='circle1'] {
+    top : 169px;
+    left: 305px;
+}
+
+img[alt='circle2'] {
+    top : 37px;
+    left: 432px;
+}
+
+img[alt='circle3'] {
+    top : 307px;
+    left: 412px;
+}
